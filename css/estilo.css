@@ -65,28 +65,87 @@ span {
   background-size: cover;
 }
 
-h1 {
-  font-family: "Edu SA Beginner", cursive;
+.jumbotron4 {
+  text-align: center;
+  height: 400px;
+  font-size: 20px;
+  width: 100%;
+  background-image: url(../multimedia/roller\ jade.jpg);
+  background-size: cover;
 }
 
-.estetica:hover {
+.serviciosjbt {
+  color: white;
+  padding: 100px;
+  font-size: 100px;
+}
+
+h1 {
+  font-family: "Edu SA Beginner", cursive;
+  text-align: center;
+}
+
+.estetica, .quienes:hover {
   height: 100px;
   width: 800px;
   transition: 2s;
   transform: scale(1.2);
 }
 
+.left {
+  border: 3px solid black;
+  height: 400px;
+  background-image: url(../multimedia/manicure.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.left1 {
+  border: 3px solid black;
+  height: 400px;
+  background-image: url(../multimedia/roller\ jade.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.left2 {
+  border: 3px solid black;
+  height: 400px;
+  background-image: url(../multimedia/depila.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  border: 3px solid black;
+  background-image: url(../multimedia/Corona\ fondo.jpeg);
+  background-position: left;
+}
+
+h3 {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  padding: 20px;
+}
+
+.p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .somos {
   font-size: 30px;
 }
 
-#contacto, .mail, h2 {
-  color: pink;
-  text-decoration: underline;
+h2 {
+  text-align: center;
+  padding: 20px;
 }
 
 p {
   font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  text-shadow: 0 0 10px black;
 }
 
 .nuestrosserv {
@@ -117,6 +176,16 @@ p {
   width: 500px;
   height: 300px;
   padding-bottom: 20px;
+}
+
+.whatsapp {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 70px;
+  right: 70px;
+  text-decoration: none;
+  font-size: 50px;
 }
 
 footer {
